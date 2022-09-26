@@ -1,22 +1,19 @@
 *{
-  overflow: hidden;
-  margin: 0;
+  margin:0;
   padding: 0;
+  
 }
-body {
-  width: 100%;
-  background-image: url("https://images5.alphacoders.com/677/677723.jpg");
-}
-
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  padding-left: 30px;
 }
-
+body {
+  width: 100%;
+  background-image: url("https://images5.alphacoders.com/677/677723.jpg");
+}
 li {
   float: left;
 }
@@ -28,43 +25,44 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
+
 li a:hover {
   background-color: #111;
-}
-.active {
-  background-color: rgba(255, 255, 0, 0.589);
-}
-.column {
-  float: left;
-  margin-top: 6px;
-  width: 32%;
-  flex: 50%;
-  padding: 0 4px;
-  text-align: center;
-  display: block;
-}
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-}
-img{
-  width: 100%;
-}
-button{
-  background-color: #333;
   color: white;
-  width: 100%;
-}
-.card{
-  display: inline-block;
-  box-shadow: 0 4px 8px 0 rgba(196, 46, 46, 0.253);
 }
 
-.card p {
-  color: rgb(235, 26, 88);
+.active {
+  background-color: #04AA6D;
 }
-.card h3{
-  color: rgb(223, 18, 103);
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.column {
+  width: 33.33%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 5px;
+  text-align: center;
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.footer{
+  display: block;
+  text-align: center;
+  background-color: rgba(168, 168, 100, 0.733);
+  color: white;
+  padding: 14px 16px;
+}
+.card{
+  background-color: rgb(185, 173, 151);
+  color: black;
 }
 .search {
   float: right;
@@ -74,9 +72,119 @@ button{
   margin-right: 16px;
   font-size: 17px;
 }
-.footer{
-  color: white;
+button{
+  padding: 10px;
+  border: none;
+  padding: 15px 32px;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.b1{
+  border: 2px solid red;
+  background-color: rgb(231, 18, 18);
+}
+.b2{
+  border: 2px solid #4CAF50;
+  background-color: #04AA6D;
+}
+.b3{
+  border: 2px solid rgb(146, 127, 255);
+  background-color: rgb(146, 127, 255);
+}
+
+.b1:hover{
+  background-color: white;
+  color:rgba(0, 0, 0, 0.7);
+}
+.b2:hover{
+  background-color: white;
+  color:rgba(0, 0, 0, 0.7);
+}
+.b3:hover{
+  background-color: white;
+  color:rgba(0, 0, 0, 0.7);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+#openPopUp{
+  text-decoration: none;
+  color: white;
+}
+#openPopUp:hover{
+  color:black;
+}
+
+
+.popup {
+  margin: 70px auto;
+  padding: 5px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup img {
+  width: 100%;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .close:hover {
+  color: red;
+}
+
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
