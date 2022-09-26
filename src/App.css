@@ -111,7 +111,13 @@ button{
   background-color: white;
   color:rgba(0, 0, 0, 0.7);
 }
+#light {
+  background-color: #f3ebf6;
+}
 
+#dark {
+  background-color: #46045e;
+}
 .overlay {
   position: fixed;
   top: 0;
