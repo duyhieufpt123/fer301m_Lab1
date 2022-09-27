@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 *{
   margin:0;
   padding: 0;
@@ -9,15 +10,22 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+
 }
 body {
   width: 100%;
-  background-image: url("https://images5.alphacoders.com/677/677723.jpg");
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/1017/842/358/tv-banshee-breaking-bad-vikings-wallpaper-preview.jpg) 
+}
+background-imgage{
+  width: 100%;
 }
 li {
   float: left;
 }
-
+.trending{
+  display: inline-block;
+  color: white;
+}
 li a {
   display: block;
   color: white;
@@ -31,8 +39,9 @@ li a:hover {
   color: white;
 }
 
-.active {
+.active:hover {
   background-color: #04AA6D;
+  color: black;
 }
 
 .container {
@@ -85,7 +94,28 @@ button{
   cursor: pointer;
   transition-duration: 0.4s;
 }
+.switch{
+  padding-bottom: 20px;
+  text-align: center;
+}
+/* .react-switch-bg{
+  top: 7px;
+  left:7px;
+}
+.react-switch-handle{
+  top: 0px;
+  right: 4px;
+  left: 0px;
+  bottom: 0px;
+} */
 
+label {
+  color: white;
+}
+
+#light label{
+  color: #000;
+}
 .b1{
   border: 2px solid red;
   background-color: rgb(231, 18, 18);
@@ -112,11 +142,14 @@ button{
   color:rgba(0, 0, 0, 0.7);
 }
 #light {
-  background-color: #f3ebf6;
+  background-color: #ddd4e0e8;
 }
-
-#dark {
-  background-color: #46045e;
+#light .main {
+  background-color: #fff;
+}
+#dark li a{
+  background-color: #333;
+  color:black;
 }
 .overlay {
   position: fixed;
@@ -193,4 +226,7 @@ button{
   to {
     transform: rotate(360deg);
   }
+}
+@media only screen and (min-width: 1200px) {
+  
 }
