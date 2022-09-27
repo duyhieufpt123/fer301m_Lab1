@@ -1,3 +1,13 @@
+Em đã hoàn thành LAB2 rồi ạ. Thầy kiểm tra và chấm điểm cho em với ạ. Em cảm ơn thầy nhiều 
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
