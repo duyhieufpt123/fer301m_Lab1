@@ -1,0 +1,35 @@
+.contact_form {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 215px;
+}
+.box input{
+    padding: 30px;
+}
+h3{
+    margin-bottom: 10px;
+}
+.box {
+    margin-bottom: 24.7px;
+}
+input{
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 5px;
+}
+textarea{
+    padding-left: 5px;
+    padding: 20px ;
+}
+button{
+    border-radius: 10%;
+    padding: 20px;
+    transition-duration: 0.4s;
+}
+button:hover{
+    background-color: rgb(23, 199, 61);
+}
+.footer-container{
+    margin-top: 0px;
+}
