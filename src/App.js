@@ -8,7 +8,7 @@ import Movie from "./pages/home/movieDetail/movie";
 import Contact from "./components/header/Contact";
 import Footer from "./components/header/footer/Footer";
 import MovieList from "./components/header/movieList/movieList";
-
+import About from "./components/header/About";
 
 
 const lightTheme = {
@@ -53,6 +53,7 @@ function App() {
             <Route path="movie/:id" element={<Movie />}></Route>
             {/* <Route path="movies/:type" element={<MovieList />}></Route> */}
             <Route path="/contact" element={<Contact />}></Route>
+            <Route path="/about" element={<About />}></Route>
             <Route path="movies/details" element={<MovieList />}></Route>
             <Route path="/*" element={<h1>Error Page</h1>}></Route>
           </Routes>

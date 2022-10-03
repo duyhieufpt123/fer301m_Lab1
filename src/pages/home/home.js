@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 import MovieList from "../../components/header/movieList/movieList";
 import Detail from "./movieDetail/Detail";
 
+
+
 const Home = () => {
 
     const [ popularMovies, setPopularMovies ] = useState([])

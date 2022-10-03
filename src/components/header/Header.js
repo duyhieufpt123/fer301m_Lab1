@@ -14,8 +14,10 @@ const Header = () => {
                 {/* <Link to="/movies/popular" style={{textDecoration: "none"}}><TextChange><span>Popular</span></TextChange></Link> */}
                 {/* <Link to="/movies/top rated" style={{textDecoration: "none"}}><TextChange><span>Top Rated</span></TextChange></Link>
                 <Link to="/movies/upcoming" style={{textDecoration: "none"}}><TextChange><span>Upcoming</span></TextChange></Link> */}
-                <Link to="/contact" style={{textDecoration: "none"}}><TextChange><span>Contact Us</span></TextChange></Link>
-                <Link to="/movies/details" style={{textDecoration: "none"}}><TextChange><span>Movies Details</span></TextChange></Link>
+                {/* <Link to="/movies/upcoming" style={{ textDecoration: "none" }}><span>Upcoming</span></Link> */}
+                <Link to="/movies/details" style={{ textDecoration: "none" }}><TextChange><span>Movies Details</span></TextChange></Link>
+                <Link to="/about" style={{ textDecoration: "none" }}><TextChange><span>About us</span></TextChange></Link>
+                <Link to="/contact" style={{ textDecoration: "none" }}><TextChange><span>Contact Us</span></TextChange></Link>
             </div>
         </div>
     )

@@ -1,0 +1,25 @@
+.contact{
+    display: flex;
+}
+.content{
+    margin-top: 464px;
+    margin-right: 80px;
+    text-align: center;  
+}
+.logo{
+    display: flex;
+    justify-content: center;
+
+}
+.logo img{
+    width: 5%;
+    
+}
+.about_content{
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+}
