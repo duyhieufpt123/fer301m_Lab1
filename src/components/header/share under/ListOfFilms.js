@@ -1,31 +1,25 @@
 export const Films = [
     {
         "adult": false,
-        "backdrop_path": "/5GA3vV1aWWHTSDO5eno8V5zDo8r.jpg",
-        "genre_ids": [
-            27,
-            53
-        ],
+        "backdrop_path": "/assets/images/orphan.jpg",
+        "runtime": "99 mins",
         "id": 760161,
         "original_language": "en",
         "original_title": "Orphan: First Kill",
         "overview": "After escaping from an Estonian psychiatric facility, Leena Klammer travels to America by impersonating Esther, the missing daughter of a wealthy family. But when her mask starts to slip, she is put against a mother who will protect her family from the murderous “child” at any cost.",
         "popularity": 7115.298,
-        "poster_path": "/wSqAXL1EHVJ3MOnJzMhUngc8gFs.jpg",
+        "poster_path": "/assets/images/download.png",
         "release_date": "2022-07-27",
         "title": "Orphan: First Kill",
         "video": false,
         "vote_average": 7,
-        "vote_count": 797
+        "vote_count": 797,
+        "genre": " Horror & Thriller "
     },
     {
         "adult": false,
         "backdrop_path": "/y2Ca1neKke2mGPMaHzlCNDVZqsK.jpg",
-        "genre_ids": [
-            28,
-            35,
-            53
-        ],
+        "runtime": "99 mins",
         "id": 718930,
         "original_language": "en",
         "original_title": "Bullet Train",
@@ -36,14 +30,13 @@ export const Films = [
         "title": "Bullet Train",
         "video": false,
         "vote_average": 7.5,
-        "vote_count": 1154
+        "vote_count": 1154,
+        "genre": " Horror & Thriller "
     },
     {
         "adult": false,
         "backdrop_path": "/2RSirqZG949GuRwN38MYCIGG4Od.jpg",
-        "genre_ids": [
-            53
-        ],
+        "genre": " Horror & Thriller ",
         "id": 985939,
         "original_language": "en",
         "original_title": "Fall",
@@ -54,15 +47,13 @@ export const Films = [
         "title": "Fall",
         "video": false,
         "vote_average": 7.5,
+        "runtime": "99 mins",
         "vote_count": 1118
     },
     {
         "adult": false,
         "backdrop_path": "/rwgmDkIEv8VjAsWx25ottJrFvpO.jpg",
-        "genre_ids": [
-            10749,
-            18
-        ],
+        "runtime": "99 mins",
         "id": 744276,
         "original_language": "en",
         "original_title": "After Ever Happy",
@@ -73,16 +64,13 @@ export const Films = [
         "title": "After Ever Happy",
         "video": false,
         "vote_average": 6.8,
+        "genre": " Horror & Thriller ",
         "vote_count": 178
     },
     {
         "adult": false,
         "backdrop_path": "/nnUQqlVZeEGuCRx8SaoCU4XVHJN.jpg",
-        "genre_ids": [
-            14,
-            12,
-            10751
-        ],
+        "genre": " Horror & Thriller ",
         "id": 532639,
         "original_language": "en",
         "original_title": "Pinocchio",
@@ -93,16 +81,14 @@ export const Films = [
         "title": "Pinocchio",
         "video": false,
         "vote_average": 6.8,
+        "runtime": "99 mins",
         "vote_count": 800
     },
     {
         "adult": false,
         "backdrop_path": "/2k9tBql5GYH328Krj66tDT9LtFZ.jpg",
-        "genre_ids": [
-            12,
-            18,
-            27
-        ],
+        "runtime": "99 mins",
+        "genre": " Horror & Thriller ",
         "id": 760741,
         "original_language": "en",
         "original_title": "Beast",
@@ -118,11 +104,8 @@ export const Films = [
     {
         "adult": false,
         "backdrop_path": "/hYZ4a0JvPETdfgJJ9ZzyFufq8KQ.jpg",
-        "genre_ids": [
-            28,
-            18,
-            878
-        ],
+        "runtime": "99 mins",
+        "genre": " Horror & Thriller ",
         "id": 629176,
         "original_language": "en",
         "original_title": "Samaritan",
@@ -138,11 +121,8 @@ export const Films = [
     {
         "adult": false,
         "backdrop_path": "/jsoz1HlxczSuTx0mDl2h0lxy36l.jpg",
-        "genre_ids": [
-            14,
-            28,
-            35
-        ],
+        "runtime": "99 mins",
+        "genre": " Horror & Thriller ",
         "id": 616037,
         "original_language": "en",
         "original_title": "Thor: Love and Thunder",
@@ -158,13 +138,8 @@ export const Films = [
     {
         "adult": false,
         "backdrop_path": "/qaTzVAW1u16WFNsepjCrilBuInc.jpg",
-        "genre_ids": [
-            16,
-            28,
-            10751,
-            35,
-            878
-        ],
+        "runtime": "99 mins",
+        "genre": " Horror & Thriller ",
         "id": 539681,
         "original_language": "en",
         "original_title": "DC League of Super-Pets",
@@ -180,11 +155,8 @@ export const Films = [
     {
         "adult": false,
         "backdrop_path": "/7ZO9yoEU2fAHKhmJWfAc2QIPWJg.jpg",
-        "genre_ids": [
-            53,
-            28,
-            878
-        ],
+        "runtime": "99 mins",
+        "genre": " Horror & Thriller ",
         "id": 766507,
         "original_language": "en",
         "original_title": "Prey",
@@ -200,12 +172,8 @@ export const Films = [
     {
         "adult": false,
         "backdrop_path": "/nmGWzTLMXy9x7mKd8NKPLmHtWGa.jpg",
-        "genre_ids": [
-            16,
-            12,
-            35,
-            14
-        ],
+        "runtime": "99 mins",
+        "genre": " Horror & Thriller ",
         "id": 438148,
         "original_language": "en",
         "original_title": "Minions: The Rise of Gru",
@@ -221,10 +189,8 @@ export const Films = [
     {
         "adult": false,
         "backdrop_path": "/d3l7kgFJyLTTQSrR4ysCk5yeVyW.jpg",
-        "genre_ids": [
-            28,
-            18
-        ],
+        "runtime": "99 mins",
+        "genre": " Horror & Thriller ",
         "id": 579974,
         "original_language": "te",
         "original_title": "రౌద్రం రణం రుధిరం",
@@ -240,11 +206,8 @@ export const Films = [
     {
         "adult": false,
         "backdrop_path": "/ugS5FVfCI3RV0ZwZtBV3HAV75OX.jpg",
-        "genre_ids": [
-            16,
-            878,
-            28
-        ],
+        "runtime": "99 mins",
+        "genre": " Horror & Thriller ",
         "id": 610150,
         "original_language": "ja",
         "original_title": "ドラゴンボール超 スーパーヒーロー",
@@ -260,11 +223,8 @@ export const Films = [
     {
         "adult": false,
         "backdrop_path": "/3PieOs1t6dPHWlgvX3XoqTIQLqN.jpg",
-        "genre_ids": [
-            12,
-            28,
-            878
-        ],
+        "runtime": "99 mins",
+        "genre": " Horror & Thriller ",
         "id": 507086,
         "original_language": "en",
         "original_title": "Jurassic World Dominion",
@@ -280,11 +240,8 @@ export const Films = [
     {
         "adult": false,
         "backdrop_path": "/skL7c4ZhZqo1IFbMcHNrol4fvkc.jpg",
-        "genre_ids": [
-            28,
-            80,
-            53
-        ],
+        "runtime": "99 mins",
+        "genre": " Horror & Thriller ",
         "id": 921360,
         "original_language": "en",
         "original_title": "Wire Room",
@@ -300,10 +257,8 @@ export const Films = [
     {
         "adult": false,
         "backdrop_path": "/tviTAFuCFRLElylvBAMPjdRnCDZ.jpg",
-        "genre_ids": [
-            53,
-            28
-        ],
+        "runtime": "99 mins",
+        "genre": " Horror & Thriller ",
         "id": 999205,
         "original_language": "en",
         "original_title": "Stowaway",
@@ -319,9 +274,8 @@ export const Films = [
     {
         "adult": false,
         "backdrop_path": "/ojfzhdwRemcDt1I6pao6vVLw9AA.jpg",
-        "genre_ids": [
-            27
-        ],
+        "runtime": "99 mins",
+        "genre": " Horror & Thriller ",
         "id": 772450,
         "original_language": "es",
         "original_title": "Presencias",
@@ -337,12 +291,8 @@ export const Films = [
     {
         "adult": false,
         "backdrop_path": "/7ABsaBkO1jA2psC8Hy4IDhkID4h.jpg",
-        "genre_ids": [
-            28,
-            12,
-            14,
-            878
-        ],
+        "runtime": "99 mins",
+        "genre": " Horror & Thriller ",
         "id": 19995,
         "original_language": "en",
         "original_title": "Avatar",
@@ -358,9 +308,8 @@ export const Films = [
     {
         "adult": false,
         "backdrop_path": "/r79KH5uKwKyfsgHSiXrrsSY8UfN.jpg",
-        "genre_ids": [
-            53
-        ],
+        "runtime": "99 mins",
+        "genre": " Horror & Thriller ",
         "id": 781099,
         "original_language": "fr",
         "original_title": "Inexorable",
@@ -376,11 +325,8 @@ export const Films = [
     {
         "adult": false,
         "backdrop_path": "/geYUecpFI2AonDLhjyK9zoVFcMv.jpg",
-        "genre_ids": [
-            16,
-            28,
-            14
-        ],
+        "runtime": "99 mins",
+        "genre": " Horror & Thriller ",
         "id": 810693,
         "original_language": "ja",
         "original_title": "劇場版 呪術廻戦 0",
